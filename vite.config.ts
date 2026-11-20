@@ -3,5 +3,8 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
 	plugins: [react()],
-	publicDir: "public"
+	publicDir: "public",
+	preview: {
+		allowedHosts: ["funny-video-website.onrender.com"]
+	}
 });
