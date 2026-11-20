@@ -14,3 +14,24 @@ Cảm ơn các bạn đã ghé thăm. Chúc mọi người luôn vui vẻ, thàn
 
 *Thân mến,*
 **Tập thể Lớp 12B**
+
+## Cấu trúc dự án
+
+- `src/components/atoms`: phần tử giao diện nhỏ.
+- `src/components/molecules`: nhóm phần tử có thể tái sử dụng.
+- `src/components/organisms`: header, footer và các khu vực nội dung.
+- `src/templates`: bố cục trang chủ.
+- `src/pages`: trang React.
+- `src/styles`: CSS của ứng dụng và stylesheet giao diện cũ đã chuyển vào đây.
+- `public/`: ảnh, font, video và thư viện slider tĩnh.
+
+`index.html` chỉ là entry shell Vite; nội dung website nằm trong TSX. Các mục Giới Thiệu, Thư Viện, Tải Xuống, Blog và Liên Hệ đã được gỡ.
+
+## Chạy dự án
+
+```sh
+npm install
+npm run dev
+```
+
+Build bản deploy bằng `npm run build`; kết quả nằm trong `dist/`.

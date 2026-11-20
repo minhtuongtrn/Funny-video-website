@@ -1,0 +1,24 @@
+.hero-video-bg {
+	display: block;
+	width: 100%;
+	max-height: 100vh;
+	object-fit: cover;
+}
+
+.event-carousel {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+	gap: 24px;
+}
+
+.feature img {
+	width: 100%;
+	height: 230px;
+	object-fit: cover;
+}
+
+@media (max-width: 640px) {
+	.event-carousel {
+		grid-template-columns: 1fr;
+	}
+}
